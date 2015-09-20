@@ -1,0 +1,108 @@
+body {
+  text-align: center;
+  background: url("http://i.imgur.com/LncI7gF.jpg?1");
+  background-size: cover;
+  color: #000;
+  font-family: "Raleway", sans-serif;
+  border: 10px solid #000;
+}
+
+h1 {
+	letter-spacing: 25px;
+	font-size: 105px;
+	font-weight: 400;
+}
+
+img {
+	height: 90px;
+}
+
+hr {
+  width: 50px;
+}
+
+p {
+  font-size: 13px;
+}
+
+a {
+	color: #000;
+	text-decoration: none; 
+	text-transform: lowercase;
+}
+
+a:hover {
+	color: #45859C;
+}
+
+div {
+	width: 400px;
+	height: 300px;
+	background: #000;
+	display: inline-block;
+	margin: 20px;
+	opacity: 0.8;
+}
+
+div:hover {
+	background: #fff;
+}
+
+footer {
+	background: #000;
+	height: 50px;
+	color: #fff;
+}
+
+ul {
+	list-style-type: none
+}
+
+#logo {
+	height: 90px;
+}
+
+#button {
+	text-transform: uppercase;
+	letter-spacing: 4px;
+	font-size: 14px;
+}
+
+#button:hover {
+	background:#fff; 
+	opacity:0.8;
+	color: #45859C;
+	padding: 20px;
+}
+
+#footerlinks {
+	color: white;
+}
+
+.panel {
+	color: #fff;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 300px;
+	font-family: "Raleway", sans-serif;
+	font-size: 40px;
+	text-transform: uppercase;
+	letter-spacing: 4px;
+	font-weight:100px;
+ }
+
+.panel:hover {
+	color: #45859C;
+}
+
+.projects {
+	height: 300px;
+}
+
+.footerlinks {
+	color: #fff;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 50px;
+}
+
