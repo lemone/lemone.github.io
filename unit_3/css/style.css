@@ -1,41 +1,37 @@
+* { margin:0; padding:0; box-sizing:border-box; }
 body {
-  text-align: center;
-  background: url("http://i.imgur.com/LncI7gF.jpg?1");
-  background-size: cover;
-  color: #000;
-  font-family: "Raleway", sans-serif;
-  border: 10px solid #000;
+	text-align: center;
+	background: url("http://i.imgur.com/LncI7gF.jpg?1");
+	background-size: cover;
+	background-repeat:no-repeat;
+	color: #000;
+	font-family: "Raleway", sans-serif;
+	border: 10px solid #000;
 }
-
 h1 {
 	letter-spacing: 25px;
 	font-size: 105px;
 	font-weight: 400;
 }
-
 img {
 	height: 90px;
 }
-
 hr {
-  width: 50px;
+	width: 50px;
 }
-
 p {
-  font-size: 13px;
+	font-size: 13px;
 }
-
+nav.footerlinks a { }
 a {
 	color: #000;
 	text-decoration: none; 
 	text-transform: lowercase;
 	padding: 20px;
 }
-
 a:hover {
 	color: #45859C;
 }
-
 div {
 	width: 400px;
 	height: 300px;
@@ -44,42 +40,34 @@ div {
 	margin: 20px;
 	opacity: 0.8;
 }
-
 div:hover {
 	background: #fff;
 }
-
 footer {
 	background: #000;
 	height: 50px;
 	color: #fff;
 }
-
 ul {
 	list-style-type: none
 }
-
 #logo {
 	height: 90px;
 }
-
 #button {
 	text-transform: uppercase;
 	letter-spacing: 4px;
 	font-size: 14px;
 }
-
 #button:hover {
 	background:#fff; 
 	opacity:0.8;
 	color: #45859C;
 	padding: 20px;
 }
-
 #footerlinks {
 	color: white;
 }
-
 .panel {
 	color: #fff;
 	text-align: center;
@@ -91,19 +79,15 @@ ul {
 	letter-spacing: 4px;
 	font-weight:100px;
  }
-
 .panel:hover {
 	color: #45859C;
 }
-
 .projects {
 	height: 300px;
 }
-
 .footerlinks {
 	color: #fff;
 	text-align: center;
 	vertical-align: middle;
 	line-height: 50px;
 }
-
