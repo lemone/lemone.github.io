@@ -2,92 +2,92 @@
 body {
 	text-align: center;
 	background: url("http://i.imgur.com/LncI7gF.jpg?1");
-	background-size: cover;
+/*	background: url(links/surfer_background.jpeg);
+*/	background-size: cover;
 	background-repeat:no-repeat;
 	color: #000;
 	font-family: "Raleway", sans-serif;
-	border: 10px solid #000;
+	border: 0.75em solid #000;
 }
 h1 {
-	letter-spacing: 25px;
-	font-size: 105px;
+	letter-spacing: 0.25em;
+	font-size: 6em;
+	font-family: 'Bitter', serif;
 	font-weight: 400;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
 }
 img {
-	height: 90px;
+	height: 6em;
+	margin: 1em;
 }
-hr {
-	width: 50px;
+h2 {
+	text-transform: uppercase;
+	letter-spacing: 0.3em;
+	font-size: 2em;
+	font-weight: 400;
 }
 p {
-	font-size: 13px;
+	font-size: 0.9em;
+	font-family: "Open Sans", sans-serif;
+	color: #fff;
+	line-height: 1.8em;
+	margin: 2em;
+	margin-right: 20em;
+	margin-left: 20em;
+	background: rgba(0,0,0,0.5);
+	padding: 2em;
 }
-nav.footerlinks a { }
+nav.footerlinks a {
+	color: #fff;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 4em;
+}
 a {
 	color: #000;
 	text-decoration: none; 
 	text-transform: lowercase;
-	padding: 20px;
+	padding: 1em;
 }
 a:hover {
 	color: #45859C;
 }
-div {
-	width: 400px;
-	height: 300px;
-	background: #000;
-	display: inline-block;
-	margin: 20px;
-	opacity: 0.8;
-}
-div:hover {
-	background: #fff;
+nav.footerlinks a:hover {
+	color: #45859C;
 }
 footer {
 	background: #000;
-	height: 50px;
-	color: #fff;
+	height: 3em;
 }
 ul {
 	list-style-type: none
 }
-#logo {
-	height: 90px;
-}
-#button {
+#viewprojects {
 	text-transform: uppercase;
-	letter-spacing: 4px;
-	font-size: 14px;
-}
-#button:hover {
-	background:#fff; 
-	opacity:0.8;
-	color: #45859C;
-	padding: 20px;
-}
-#footerlinks {
-	color: white;
+	letter-spacing: 0.45em;
+	font-size: 0.9em;
 }
 .panel {
 	color: #fff;
 	text-align: center;
 	vertical-align: middle;
-	line-height: 300px;
+	line-height: 5em;
 	font-family: "Raleway", sans-serif;
-	font-size: 40px;
+	font-size: 3em;
 	text-transform: uppercase;
-	letter-spacing: 4px;
-	font-weight:100px;
+	letter-spacing: 0.15em;
+	font-weight: 400;
  }
 .panel:hover {
 	color: #45859C;
 }
-.projects {
+/*.projects {
 	height: 300px;
-}
-.footerlinks {
+}*/
+/*.footerlinks {
 	color: #fff;
 	text-align: center;
 	vertical-align: middle;
 	line-height: 50px;
-}
+}*/
