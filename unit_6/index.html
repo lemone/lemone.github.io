@@ -21,33 +21,35 @@
 		</header>
 
 		<section id="panels" class="clearfix">
-			<div class="panels">
-				<img id="icon" src="links/icon.svg" alt="diamond" title ="diamond">
-				<h2>my work</h2>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-				tempor incididunt ut labore et dolore magna aliqua.</p>
-				<hr>
-				<a href="#">have a look</a>
-			</div>
-			<div class="panels">
-				<img id="icon" src="links/icon.svg" alt="diamond" title ="diamond">
-				<h2>about me</h2>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-				tempor incididunt ut labore et dolore magna aliqua.</p>
-				<hr>
-				<a href="#">learn more</a>
-			</div>
-			<div class="panels">
-				<img id="icon" src="links/icon.svg" alt="diamond" title ="diamond">
-				<h2>get in touch</h2>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-				tempor incididunt ut labore et dolore magna aliqua.</p>
-				<hr>
-				<a href="#">lets work</a>
+			<div class="wrapper"> 
+				<div class="panels">
+					<img id="icon" src="links/icon.svg" alt="diamond" title ="diamond">
+					<h2>my work</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua.</p>
+					<hr>
+					<a href="#">have a look</a>
+				</div>
+				<div class="panels">
+					<img id="icon" src="links/icon.svg" alt="diamond" title ="diamond">
+					<h2>about me</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua.</p>
+					<hr>
+					<a href="#">learn more</a>
+				</div>
+				<div class="panels">
+					<img id="icon" src="links/icon.svg" alt="diamond" title ="diamond">
+					<h2>get in touch</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua.</p>
+					<hr>
+					<a href="#">lets work</a>
+				</div>
 			</div>
 		</section>
 
-		<section id="projectgrid">
+		<section id="projectgrid" class="clearfix">
 			<img src="links/Project1.jpg" alt="trees in the mist" title ="lancscape">
 			<img src="links/Project2.jpg" alt="mountains and water" title ="mountains">
 			<img src="links/Project3.jpg" alt="flyer design" title ="flyer design">
@@ -63,27 +65,54 @@
 		</section>
 
 		<section id="feature" class="clearfix">
-			<div id="featuretext">
-				<img id="icon" src="links/icon.svg" alt="diamond" title ="diamond">
-				<h2>project name</h2>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-				tempor incididunt ut labore et dolore magna aliqua.</p>
-				<hr>
-				<a href="#">see more</a>
+			<div class="wrapper">
+				<div id="featuretext">
+					<img id="icon" src="links/icon.svg" alt="diamond" title ="diamond">
+					<h2>project name</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua.</p>
+					<hr>
+					<a href="#">see more</a>
+				</div>
+				<img id="featuredproject" src="links/featuredproject.jpg" alt="project" title ="project">
 			</div>
-			<img id="featuredproject" src="links/featuredproject.jpg" alt="project" title ="project">
 		</section>	
 
 		<section id="quote">
-			<img src="links/quote.svg" alt="quote" title="quote">
-			<h1>some cultures are defined by their relationship to cheese</h1>
-			<h3>Benny &amp; Joon (1998)</h3>
+			<div class="wrapper">
+				<img src="links/quote.svg" alt="quote" title="quote">
+				<h3>some cultures are defined by their relationship to cheese</h3>
+				<h4>Benny &amp; Joon (1998)</h4>
+			</div>
 		</section>
 
 		<section id="contact">
-			<img src="links/hithere.svg" alt="hi there" title="hi there">
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-			tempor incididunt ut labore et dolore magna aliqua.lorem</p>
+			<div class="wrapper">
+				<img src="links/hithere.svg" alt="hi there" title="hi there">
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua.lorem</p>
+
+				<form id="contact_form" action="#" method="POST" enctype="multipart/form-data">
+					<div class="col1">
+						<div class="row">
+							<label for="name">Your name:</label><br />
+							<input id="name" class="input" name="name" type="text" value="" size="30" /><br />
+						</div>
+						<div class="row">
+							<label for="email">Your email:</label><br />
+							<input id="email" class="input" name="email" type="text" value="" size="30" /><br />
+						</div>
+					</div>
+					<div class="col2">
+						<div class="row">
+							<label for="message">Your message:</label><br />
+							<textarea id="message" class="input" name="message" rows="7" cols="30"></textarea><br />
+						</div>
+						<input id="submit_button" type="submit" value="Send email" />
+					</div>
+				</form>
+					
+			</div>
 		</section>
 
 		<footer>

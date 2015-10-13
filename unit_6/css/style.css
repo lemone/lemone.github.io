@@ -37,13 +37,22 @@ h1{
 	font-weight: 900;
 	letter-spacing: 0.2em;
 	text-transform: uppercase;
-	margin: 2em;
+	margin: -3em;
 }
 h2{
 	color: #000;
 	font-size: 1.5em;
 }
 h3{
+	color: #fff;
+	font-size: 1em;
+	font-family: "Raleway", sans-serif;
+	font-weight: 900;
+	letter-spacing: 0.2em;
+	text-transform: uppercase;
+	margin: 2em;
+}
+h4{
 	color: #fff;
 	font-size: 1em;
 }
@@ -78,6 +87,11 @@ footer a {
 	font-weight: 900;
 	letter-spacing: 0.2em;
 }
+input{
+	width: 30em;
+	height: 2.5em;
+	margin: 2em;
+}
 .clearfix:after{
 	visibility: hidden;
 	display: block;
@@ -93,8 +107,21 @@ footer a {
 	padding: 5%;
 	float: left;
 }
+.wrapper {
+	max-width: 1400px;
+}
+.col1 {
+	float: left;
+	margin-left: 20%
+}
+.col2 {
+	float: right;
+	margin-right: 20%;
+}
 #projectgrid img{
-	width: 18%;
+	width: 20%;
+	float: left;
+	line-height: 0;
 }
 #logo {
 	width: 6em;
@@ -145,4 +172,18 @@ footer a {
 	width: 30em;
 	margin-top: 3.5em;
 	margin-bottom: 1.5em;
+}
+#message {
+	width: 30em;
+	height: 6em;
+	margin: 2em;
+
+}
+#contact_form{
+	margin: 3em;
+}
+#submit_button{
+	width: 8em;
+	height: 2em;
+	background-color: blue;
 }
