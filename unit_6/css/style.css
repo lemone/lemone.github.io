@@ -1,0 +1,148 @@
+* { margin:0; padding:0; box-sizing:border-box; }
+body {
+	text-align: center;
+	background: url(../links/ferns.jpg);
+	background-size: cover;
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	color: #000;
+	font-family: "Muli", sans-serif;
+/*	border: 0.75em solid #1E2021;
+*/}
+header {
+	height: 30em;
+}
+nav{
+	font-family: "Raleway", sans-serif;
+	font-weight: 900;
+	letter-spacing: 0.2em;
+	padding: 0.9em;
+	line-height: 3em;
+}
+nav a {
+	color: #fff;
+	text-decoration: none;
+	display: block;
+	float: right;
+	text-transform: uppercase;
+}
+a:hover{
+	color: #a3a3a3;
+/*	border-bottom: 2em, solid #a3a3a3;
+*/}
+h1{
+	color: #fff;
+	font-size: 1em;
+	font-family: "Raleway", sans-serif;
+	font-weight: 900;
+	letter-spacing: 0.2em;
+	text-transform: uppercase;
+	margin: 2em;
+}
+h2{
+	color: #000;
+	font-size: 1.5em;
+}
+h3{
+	color: #fff;
+	font-size: 1em;
+}
+p {
+	color: #000;
+	font-size: 0.9em;
+	line-height: 1.5em;
+	margin: 1em;
+}
+hr {
+	margin: 1em;
+}
+a {
+	font-size: 0.9em;
+	margin: 2em;
+	text-decoration: none;
+	color: #000;
+}
+footer{
+	background-color: #000;
+	height: 10em;
+}
+footer a {
+	color: #fff;
+	text-decoration: none;
+	display: block;
+	float: left;
+	padding: 0.9em;
+	line-height: 5em;
+	text-transform: uppercase;
+	font-family: "Raleway", sans-serif;
+	font-weight: 900;
+	letter-spacing: 0.2em;
+}
+.clearfix:after{
+	visibility: hidden;
+	display: block;
+	content: " ";
+	clear: both;
+	height: 0;
+	font-size: 0;
+}
+.panels {
+/*	width: 280px;
+	padding: 10px;*/
+	width: 33%;
+	padding: 5%;
+	float: left;
+}
+#projectgrid img{
+	width: 18%;
+}
+#logo {
+	width: 6em;
+	margin: 1em;
+	display: block;
+	float: left;
+}
+#explore {
+	width: 30em;
+	margin: 1em;
+}
+#icon {
+	width: 2em;
+	margin: 1.5em;
+}
+#panels {
+	background-color: #fff;
+	width: 100%;
+}
+#feature {
+	background-color: #F3F3F3;
+	width: 100%;
+	height: 40em;
+	padding:  7em;
+}
+#featuretext{
+	width: 33%;
+	padding: 5%;
+	float: left;
+	background-color: #fff;
+}
+#featuredproject{
+	width: 49em;
+	float: left;
+}
+#quote {
+	height: 18em;
+}
+#quote img{
+	width: 4em;
+	margin-top: 3.5em
+}
+#contact {
+	background-color: #fff;
+	height: 30em;
+}
+#contact img{
+	width: 30em;
+	margin-top: 3.5em;
+	margin-bottom: 1.5em;
+}

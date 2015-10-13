@@ -1,0 +1,130 @@
+* { margin:0; padding:0; box-sizing:border-box; }
+body {
+	text-align: center;
+	font-size: 16px;
+}
+header {
+	height: 134px;
+}
+nav{
+	font-family: "Open Sans", sans-serif;
+	font-weight: 300;
+	letter-spacing: 0.1em;
+	padding: 0.9em;
+	line-height: 3em;
+}
+nav a {
+	color: #000;
+	text-decoration: none;
+	display: block;
+	float: right;
+	text-transform: lowercase;
+}
+a:hover{
+	color: blue;
+}
+h1 {
+	color: #000;
+	font-size: 2em;
+	float: left;
+	margin: 1.5em;
+	font-family: "Homemade Apple", cursive;
+}
+h2{
+	color: #000;
+	font-family: "Open Sans", sans-serif;
+	font-weight: 300;
+	letter-spacing: 0.1em;
+	text-decoration: none;
+	text-transform: lowercase;
+}
+p {
+	color: #000;
+	font-size: 0.8em;
+	font-family: "Open Sans", sans-serif;
+	line-height: 1.7em;
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+a {
+	font-size: 0.9em;
+	margin: 2em;
+	text-decoration: none;
+	color: #000;
+}
+footer{
+	background-color: #000;
+	height: 10em;
+	font-family: "Open Sans", sans-serif;
+	font-weight: 300;
+	letter-spacing: 0.1em;
+}
+footer a {
+	color: #fff;
+	text-decoration: none;
+	display: block;
+	padding: 0.9em;
+	line-height: 5em;
+	text-decoration: none;
+	display: block;
+	float: right;
+	text-transform: lowercase;
+}
+.clearfix:after{
+	visibility: hidden;
+	display: block;
+	content: " ";
+	clear: both;
+	height: 0;
+	font-size: 0;
+}
+.panels {
+/*	width: 280px;
+	padding: 10px;*/
+	width: 33%;
+	padding: 5%;
+	float: left;
+}
+.blog {
+	width: 33%;
+	padding: 5%;
+	float: left;
+}
+#panels {
+	background-color: #fff;
+	width: 100%;
+}
+#logo {
+	width: 3em;
+}
+#icon {
+	width: 3em;
+	margin: 1em;
+}
+#aboutme {
+	margin: 2em;
+	text-align: left;
+	width: 60%; 
+	height: 10em;
+	float: left;
+	background: yellow;
+	display: block;
+}
+#contactform{
+	margin: 2em;
+	width:30%;
+	height: 10em;
+	float: right;
+	background: blue;
+}
+#blogimage {
+	width: 33%;
+	margin: 2em;
+	background: yellow;
+}
+#calligraphyart{
+	max-width: 100%;
+}
+#calligraphyart2{
+	max-width: 100%;
+}
