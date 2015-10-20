@@ -130,7 +130,7 @@ figure img{
 #panels {
 	background-color: #fff;
 	width: 1300px;
-	margin: auto;
+	margin: 0 auto;
 }
 #logo {
 	width: 15em;

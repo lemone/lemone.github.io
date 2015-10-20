@@ -34,7 +34,7 @@ h1{
 	color: #fff;
 	font-size: 1em;
 	font-family: "Raleway", sans-serif;
-	font-weight: 900;
+	font-weight: 600;
 	letter-spacing: 0.2em;
 	text-transform: uppercase;
 	margin: -3em;
@@ -55,6 +55,20 @@ h3{
 h4{
 	color: #fff;
 	font-size: 1em;
+}
+h5 {
+	color: #000;
+	font-size: 1em;
+	text-align: left;
+}
+h6 {
+	font-family: "Raleway", sans-serif;
+	font-size: 1.5em;
+	text-align: left;
+	line-height: 1.5em;
+	letter-spacing: 0.2em;
+	text-transform: uppercase;
+	text-decoration: underline; 
 }
 p {
 	color: #000;
@@ -91,6 +105,76 @@ input{
 	width: 30em;
 	height: 2.5em;
 	margin: 2em;
+}
+aside {
+	 background-color: white;
+	 float: left;
+	 display: inline-block;
+	 padding: 2em;
+	 width: 20%;
+/*	 margin: auto 2em;
+*/	 text-align: left;
+}
+ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+li {
+	margin: 0.7em 0;
+}
+#detail{
+	background-color: white;
+	float: right;
+	display: inline-block;
+	padding: 2em;
+	width: 20%;
+/*	margin: auto 2em;
+*/	text-align: left;
+}
+#browseproject {
+	margin-bottom: 2em;
+}
+#main {
+	background-color: #fff;
+	height: 60em;
+}
+#content {
+	width: 960px;
+	padding: 5em 0;
+	margin: 0 auto;
+}
+#about {
+	background-color: #fff;
+}
+#project {
+	width: 60%;
+/*	background-color: red;
+*/	float: left;
+}
+#excerpt {
+/*	background-color: green;
+*/	float: left;
+	margin-top: 7em;
+}
+#projectimage1 {
+	width: 20em;
+	height: 30em;
+	margin: 3em;
+/*	background-color: green;
+*/	float: left;
+}
+#projectimage2 {
+	width: 48em;
+	height: 20em;
+	margin: 0 3em 3em 3em;
+	float: left;
+}
+#projectimage3 {
+	width: 15em;
+	height: 15em;
+	margin: 3em 3em 0 0;
+	float: left;
 }
 .clearfix:after{
 	visibility: hidden;
@@ -172,7 +256,7 @@ input{
 }
 #contact img{
 	width: 30em;
-	margin-top: 3.5em;
+	margin-top: 5em;
 	margin-bottom: 1.5em;
 }
 #message {
@@ -182,10 +266,15 @@ input{
 
 }
 #contact_form{
-	margin: 3em;
+	margin: 3em auto 5em auto;
 }
 #submit_button{
 	width: 8em;
 	height: 2em;
 	background-color: blue;
+}
+#instagram img{
+	width: 10%;
+	float: left;
+	line-height: 0;
 }
