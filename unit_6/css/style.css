@@ -101,10 +101,14 @@ footer a {
 	font-weight: 900;
 	letter-spacing: 0.2em;
 }
-input{
-	width: 30em;
-	height: 2.5em;
-	margin: 2em;
+input, textarea{
+	width: 100%;
+	margin-bottom: .5em;
+	padding:1em;
+}
+input[type="submit"] {
+	border:none;
+	outline:none;
 }
 aside {
 	 background-color: white;
@@ -184,24 +188,14 @@ li {
 	height: 0;
 	font-size: 0;
 }
-.panels {
-/*	width: 280px;
-	padding: 10px;*/
-	width: 33%;
-	padding: 5%;
+#panels section {
+	width: 33.33%;
+	padding: 1em;
 	float: left;
 }
 .wrapper {
 	max-width: 1400px;
 	margin-left: auto;
-	margin-right: auto;
-}
-.col1 {
-	float: left;
-	margin-left: auto;
-}
-.col2 {
-	float: right;
 	margin-right: auto;
 }
 #projectgrid img{
@@ -264,14 +258,6 @@ li {
 	height: 6em;
 	margin: 2em;
 
-}
-#contact_form{
-	margin: 3em auto 5em auto;
-}
-#submit_button{
-	width: 8em;
-	height: 2em;
-	background-color: blue;
 }
 #instagram img{
 	width: 10%;
