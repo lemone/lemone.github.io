@@ -1,0 +1,304 @@
+* { margin:0; padding:0; box-sizing:border-box; }
+body {
+	text-align: center;
+	background: url(../links/ferns.jpg);
+	background-size: cover;
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	color: #000;
+	font-family: "Muli", sans-serif;
+/*	border: 0.75em solid #1E2021;
+*/}
+header {
+	height: 100vh;
+}
+nav{
+	font-family: "Raleway", sans-serif;
+	font-weight: 900;
+	letter-spacing: 0.2em;
+	padding: 0.9em;
+	line-height: 3em;
+}
+nav a {
+	color: #fff;
+	text-decoration: none;
+	display: block;
+	float: right;
+	text-transform: uppercase;
+}
+a:hover{
+	color: #a3a3a3;
+/*	border-bottom: 2em, solid #a3a3a3;
+*/}
+h1{
+	color: #fff;
+	font-size: 1em;
+	font-family: "Raleway", sans-serif;
+	font-weight: 600;
+	letter-spacing: 0.2em;
+	text-transform: uppercase;
+	margin: -3em;
+}
+h2{
+	font-family: "Raleway", sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 0.2em;
+	color: #000;
+	font-size: 1em;
+	font-weight: 900;
+}
+h3{
+	color: #fff;
+	font-size: 1em;
+	font-family: "Raleway", sans-serif;
+	font-weight: 900;
+	letter-spacing: 0.2em;
+	text-transform: uppercase;
+	margin: 2em;
+}
+h4{
+	color: #fff;
+	font-size: 1em;
+}
+h5 {
+	color: #000;
+	font-size: 1em;
+	text-align: left;
+}
+h6 {
+	font-family: "Raleway", sans-serif;
+	font-size: 1.5em;
+	text-align: left;
+	line-height: 1.5em;
+	letter-spacing: 0.2em;
+	text-transform: uppercase;
+	text-decoration: underline; 
+}
+p {
+	color: #000;
+	font-size: 0.9em;
+	line-height: 1.5em;
+	margin: 1em;
+}
+hr {
+	margin: 1em auto;
+	width: 30%;
+}
+a {
+	font-size: 0.9em;
+	margin: 2em;
+	text-decoration: none;
+	color: #000;
+}
+footer{
+	background-color: #000;
+	height: 10em;
+}
+footer a {
+	color: #fff;
+	text-decoration: none;
+	display: block;
+	float: left;
+	padding: 0.9em;
+	line-height: 5em;
+	text-transform: uppercase;
+	font-family: "Raleway", sans-serif;
+	font-weight: 900;
+	letter-spacing: 0.2em;
+}
+input, textarea{
+	width: 100%;
+	margin-bottom: .5em;
+	padding:1em;
+}
+input[type="submit"] {
+	border:none;
+	outline:none;
+}
+aside {
+	 background-color: white;
+	 float: left;
+	 display: inline-block;
+	 padding: 2em;
+	 width: 20%;
+/*	 margin: auto 2em;
+*/	 text-align: left;
+}
+ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+li {
+	margin: 0.7em 0;
+}
+.wrapper {
+	max-width: 1400px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.clearfix:after{
+	visibility: hidden;
+	display: block;
+	content: " ";
+	clear: both;
+	height: 0;
+	font-size: 0;
+}
+#detail{
+	background-color: white;
+	float: right;
+	display: inline-block;
+	padding: 2em;
+	width: 20%;
+/*	margin: auto 2em;
+*/	text-align: left;
+}
+#browseproject {
+	margin-bottom: 2em;
+}
+#middletext {
+	margin: 15%;
+}
+#main {
+	background-color: #fff;
+	height: 60em;
+}
+#content {
+	width: 960px;
+	padding: 5em 0;
+	margin: 0 auto;
+}
+#about {
+	background-color: #fff;
+}
+#project {
+	width: 60%;
+/*	background-color: red;
+*/	float: left;
+}
+#excerpt {
+/*	background-color: green;
+*/	float: left;
+	margin-top: 7em;
+}
+#projectimage1 {
+	width: 20em;
+	height: 30em;
+	margin: 3em;
+/*	background-color: green;
+*/	float: left;
+}
+#projectimage2 {
+	width: 48em;
+	height: 20em;
+	margin: 0 3em 3em 3em;
+	float: left;
+}
+#projectimage3 {
+	width: 15em;
+	height: 15em;
+	margin: 3em 3em 0 0;
+	float: left;
+}
+#panels section {
+	width: 33.33%;
+	padding: 1em;
+	float: left;
+}
+#projectgrid img{
+	width: 20%;
+	float: left;
+	line-height: 0;
+}
+#logo {
+	width: 6em;
+	margin: 1em;
+	display: block;
+	float: left;
+}
+#explore {
+	width: 30em;
+	margin: 1em;
+}
+#icon {
+	width: 4em;
+	margin: 1.5em;
+}
+#panels {
+	background-color: #fff;
+	width: 100%;
+	padding: 8em;
+}
+#feature {
+	background-color: #F3F3F3;
+	width: 100%;
+	height: 40em;
+	padding:  7em;
+}
+#featuretext{
+	width: 33%;
+	padding: 5%;
+	float: left;
+	background-color: #fff;
+}
+#featuredproject{
+	width: 49em;
+	float: left;
+}
+#quote {
+	height: 18em;
+}
+#quote img{
+	width: 4em;
+	margin-top: 3.5em
+}
+#contact {
+	background-color: #fff;
+	height: 30em;
+}
+#contact img{
+	width: 30em;
+	margin-top: 5em;
+	margin-bottom: 1.5em;
+}
+#message {
+	width: 30em;
+	height: 6em;
+	margin: 2em;
+
+}
+#instagram img{
+	width: 10%;
+	float: left;
+	line-height: 0;
+}
+
+@media only screen and (max-width: 1250px) {
+	#panels section {
+		width: 80%;
+		margin: auto;
+		padding: 1em;
+		float: none;
+	}
+}
+@media only screen and (max-width: 768px) {
+	nav a {
+		display: block;
+		float: none;
+	}
+	#logo {
+		width: 6em;
+		margin: auto;
+		display: block;
+		float: none;
+	}
+	#middletext {
+		display: none;
+	}
+	#panels section {
+		width: 100%;
+		margin: auto;
+		float: none;
+	}
+}
