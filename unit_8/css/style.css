@@ -83,6 +83,10 @@ li {
 	float: left;
 	margin: 2em;
 }
+#explore {
+	width: 20em;
+	margin: 1em;
+}
 #main {
 	background: #5FDCCB;
 }
@@ -132,6 +136,9 @@ li {
 		float: none;
 		margin: 1em;
 	}
+	#explore {
+	display: none;
+	}	
 	footer{
 		background-color: #000;
 		height: auto;
@@ -142,7 +149,6 @@ li {
 		line-height: 2em;
 		padding: 0;
 	}
-
 }
 
 @media only screen and (max-width: 460px) {
